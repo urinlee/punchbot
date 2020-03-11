@@ -8,6 +8,7 @@ import datetime
 import requests
 import openpyxl
 from json import loads
+import os
 
 
 
@@ -933,5 +934,5 @@ async def on_message(message):
         
         
 
-
-client.run("NjgzMTYxMjgxMDA3NDUyMjU1.XlniMw.tWKkd8ixZuwofbM40Xz8lZcFBNc")
+access_token = os.environ["BOT-TOKEN"]
+client.run("access_token")
